@@ -1,0 +1,56 @@
+{
+  "id": "priv-sess-e7e1f824",
+  "title": "Sanitization Session 2:39:08 PM",
+  "profileId": "default-general",
+  "createdAt": "2026-10-28T14:39:08.855Z",
+  "originalText": "Email john@example.com for $500.",
+  "detectedEntities": [
+    {
+      "id": "ent-8d01117c",
+      "text": "john@example.com",
+      "category": "EMAIL",
+      "startOffset": 6,
+      "endOffset": 22,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false
+    },
+    {
+      "id": "ent-705a9077",
+      "text": "$500",
+      "category": "FINANCIAL_AMOUNT",
+      "startOffset": 27,
+      "endOffset": 31,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false
+    }
+  ],
+  "sanitizedText": "Email [EMAIL_A] for [FINANCIAL_AMOUNT_A].",
+  "mappingEntries": [
+    {
+      "entityId": "ent-8d01117c",
+      "sessionId": "priv-sess-e7e1f824",
+      "mappingVersion": 1,
+      "category": "EMAIL",
+      "placeholder": "[EMAIL_A]",
+      "protectedOriginalValue": "john@example.com",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T14:39:08.855Z",
+      "revoked": false
+    },
+    {
+      "entityId": "ent-705a9077",
+      "sessionId": "priv-sess-e7e1f824",
+      "mappingVersion": 1,
+      "category": "FINANCIAL_AMOUNT",
+      "placeholder": "[FINANCIAL_AMOUNT_A]",
+      "protectedOriginalValue": "$500",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T14:39:08.855Z",
+      "revoked": false
+    }
+  ],
+  "residualRisk": "clean",
+  "riskDetails": []
+}

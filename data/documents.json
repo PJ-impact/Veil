@@ -1,0 +1,121 @@
+[
+  {
+    "id": "doc-sample-nda-001",
+    "title": "Confidential Asset Purchase & Non-Disclosure Agreement.pdf",
+    "fileName": "Confidential_Asset_Purchase_Agreement.pdf",
+    "fileType": "pdf",
+    "fileSizeBytes": 248900,
+    "uploadedAt": "2026-10-28T09:00:00Z",
+    "pageCount": 4,
+    "chunkCount": 4,
+    "extractedText": "This Asset Purchase and Mutual Non-Disclosure Agreement (\"Agreement\") is executed on October 12, 2026, by and between Apex Systems Corp., a Delaware corporation with principal offices at 100 Innovation Way, Wilmington, DE (\"Buyer\"), and Meridian BioTech LLC, a California limited liability company (\"Seller\"). The parties agree to hold proprietary operational metrics, patent disclosures, and clinical trial results in strict confidence.\n\nSection 4.1 Purchase Price. The aggregate consideration payable by Buyer to Seller for the Acquired Assets shall be Four Million Five Hundred Thousand Dollars ($4,500,000 USD). At Closing, Buyer shall deposit Five Hundred Thousand Dollars ($500,000 USD) into an independent third-party escrow account with First National Trust Bank to satisfy indemnification claims arising within twelve (12) months following Closing.\n\nSection 7.1 Closing Schedule. The Closing shall take place remotely via electronic document exchange on December 15, 2026, at 10:00 AM Eastern Time, unless extended by mutual written consent.\nSection 7.2 Governing Law and Dispute Resolution. This Agreement and any disputes arising hereunder shall be governed exclusively by the laws of the State of Delaware, without regard to conflict of law principles. Any legal action must be instituted in the Court of Chancery of the State of Delaware.\n\nSection 9.2 Liability Cap. The total aggregate liability of Seller for breaches of representations and warranties shall not exceed fifteen percent (15%) of the Purchase Price, representing Six Hundred Seventy-Five Thousand Dollars ($675,000 USD). Key representative contact for Seller is Dr. Marcus Vance (marcus.vance@meridianbiotech.internal, +1-415-555-0199).",
+    "chunks": [
+      {
+        "id": "doc-sample-nda-001-c1",
+        "documentId": "doc-sample-nda-001",
+        "documentTitle": "Confidential Asset Purchase & Non-Disclosure Agreement.pdf",
+        "pageNumber": 1,
+        "sectionHeading": "Section 1: Parties and Purpose",
+        "text": "This Asset Purchase and Mutual Non-Disclosure Agreement (\"Agreement\") is executed on October 12, 2026, by and between Apex Systems Corp., a Delaware corporation with principal offices at 100 Innovation Way, Wilmington, DE (\"Buyer\"), and Meridian BioTech LLC, a California limited liability company (\"Seller\"). The parties agree to hold proprietary operational metrics, patent disclosures, and clinical trial results in strict confidence.",
+        "startOffset": 0,
+        "endOffset": 450,
+        "tokensEstimate": 75
+      },
+      {
+        "id": "doc-sample-nda-001-c2",
+        "documentId": "doc-sample-nda-001",
+        "documentTitle": "Confidential Asset Purchase & Non-Disclosure Agreement.pdf",
+        "pageNumber": 2,
+        "sectionHeading": "Section 4: Purchase Price and Escrow",
+        "text": "Section 4.1 Purchase Price. The aggregate consideration payable by Buyer to Seller for the Acquired Assets shall be Four Million Five Hundred Thousand Dollars ($4,500,000 USD). At Closing, Buyer shall deposit Five Hundred Thousand Dollars ($500,000 USD) into an independent third-party escrow account with First National Trust Bank to satisfy indemnification claims arising within twelve (12) months following Closing.",
+        "startOffset": 451,
+        "endOffset": 890,
+        "tokensEstimate": 80
+      },
+      {
+        "id": "doc-sample-nda-001-c3",
+        "documentId": "doc-sample-nda-001",
+        "documentTitle": "Confidential Asset Purchase & Non-Disclosure Agreement.pdf",
+        "pageNumber": 3,
+        "sectionHeading": "Section 7: Closing Date and Governing Law",
+        "text": "Section 7.1 Closing Schedule. The Closing shall take place remotely via electronic document exchange on December 15, 2026, at 10:00 AM Eastern Time, unless extended by mutual written consent.\nSection 7.2 Governing Law and Dispute Resolution. This Agreement and any disputes arising hereunder shall be governed exclusively by the laws of the State of Delaware, without regard to conflict of law principles. Any legal action must be instituted in the Court of Chancery of the State of Delaware.",
+        "startOffset": 891,
+        "endOffset": 1420,
+        "tokensEstimate": 95
+      },
+      {
+        "id": "doc-sample-nda-001-c4",
+        "documentId": "doc-sample-nda-001",
+        "documentTitle": "Confidential Asset Purchase & Non-Disclosure Agreement.pdf",
+        "pageNumber": 4,
+        "sectionHeading": "Section 9: Indemnification Cap and Representatives",
+        "text": "Section 9.2 Liability Cap. The total aggregate liability of Seller for breaches of representations and warranties shall not exceed fifteen percent (15%) of the Purchase Price, representing Six Hundred Seventy-Five Thousand Dollars ($675,000 USD). Key representative contact for Seller is Dr. Marcus Vance (marcus.vance@meridianbiotech.internal, +1-415-555-0199).",
+        "startOffset": 1421,
+        "endOffset": 1870,
+        "tokensEstimate": 85
+      }
+    ],
+    "status": "indexed"
+  },
+  {
+    "id": "doc-sample-employment-002",
+    "title": "Executive Employment Agreement - Dr Elena Rostova.pdf",
+    "fileName": "Executive_Employment_Agreement.pdf",
+    "fileType": "pdf",
+    "fileSizeBytes": 184500,
+    "uploadedAt": "2026-10-28T09:15:00Z",
+    "pageCount": 2,
+    "chunkCount": 2,
+    "extractedText": "EXECUTIVE EMPLOYMENT AGREEMENT. Effective November 1, 2026, Dr. Elena Rostova (\"Executive\", SSN: 948-22-1084, personal email: elena.rostova@medtech-advisory.org, resident of 742 Evergreen Terrace, Pasadena, CA) is appointed as Chief Technology Officer of Apex Systems Corp. The Executive shall receive an initial base salary of Two Hundred Eighty Thousand Dollars ($280,000 USD) per annum, payable in semi-monthly installments.\n\nSection 3. Annual Performance Bonus. Executive is eligible to receive an annual target bonus equal to twenty-five percent (25%) of Base Salary, contingent upon company milestone attainment.\nSection 6. Restrictive Covenants. During the term of employment and for twelve (12) months following termination, Executive shall not directly or indirectly engage with competitive artificial intelligence bio-informatics ventures located within North America.",
+    "chunks": [
+      {
+        "id": "doc-sample-employment-002-c1",
+        "documentId": "doc-sample-employment-002",
+        "documentTitle": "Executive Employment Agreement - Dr Elena Rostova.pdf",
+        "pageNumber": 1,
+        "sectionHeading": "Appointment & Base Compensation",
+        "text": "EXECUTIVE EMPLOYMENT AGREEMENT. Effective November 1, 2026, Dr. Elena Rostova (\"Executive\", SSN: 948-22-1084, personal email: elena.rostova@medtech-advisory.org, resident of 742 Evergreen Terrace, Pasadena, CA) is appointed as Chief Technology Officer of Apex Systems Corp. The Executive shall receive an initial base salary of Two Hundred Eighty Thousand Dollars ($280,000 USD) per annum, payable in semi-monthly installments.",
+        "startOffset": 0,
+        "endOffset": 480,
+        "tokensEstimate": 82
+      },
+      {
+        "id": "doc-sample-employment-002-c2",
+        "documentId": "doc-sample-employment-002",
+        "documentTitle": "Executive Employment Agreement - Dr Elena Rostova.pdf",
+        "pageNumber": 2,
+        "sectionHeading": "Incentive Compensation & Covenants",
+        "text": "Section 3. Annual Performance Bonus. Executive is eligible to receive an annual target bonus equal to twenty-five percent (25%) of Base Salary, contingent upon company milestone attainment.\nSection 6. Restrictive Covenants. During the term of employment and for twelve (12) months following termination, Executive shall not directly or indirectly engage with competitive artificial intelligence bio-informatics ventures located within North America.",
+        "startOffset": 481,
+        "endOffset": 990,
+        "tokensEstimate": 88
+      }
+    ],
+    "status": "indexed"
+  },
+  {
+    "id": "doc-sample-amendment-003",
+    "title": "Draft First Amendment to Purchase Agreement.txt",
+    "fileName": "Draft_First_Amendment.txt",
+    "fileType": "txt",
+    "fileSizeBytes": 24100,
+    "uploadedAt": "2026-10-28T09:30:00Z",
+    "pageCount": 1,
+    "chunkCount": 1,
+    "extractedText": "PROPOSED AMENDMENT TO ASSET PURCHASE AGREEMENT. The parties hereby agree to amend Section 4.1 to increase the aggregate Purchase Price to Five Million Two Hundred Thousand Dollars ($5,200,000 USD), in consideration of additional IP transfer.\nFurthermore, the Closing Date specified in Section 7.1 is rescheduled to January 30, 2027. All disputes under this Amendment shall be submitted to the jurisdiction of the State of New York courts.",
+    "chunks": [
+      {
+        "id": "doc-sample-amendment-003-c1",
+        "documentId": "doc-sample-amendment-003",
+        "documentTitle": "Draft First Amendment to Purchase Agreement.txt",
+        "pageNumber": 1,
+        "sectionHeading": "Amendment to Financial Terms and Closing Date",
+        "text": "PROPOSED AMENDMENT TO ASSET PURCHASE AGREEMENT. The parties hereby agree to amend Section 4.1 to increase the aggregate Purchase Price to Five Million Two Hundred Thousand Dollars ($5,200,000 USD), in consideration of additional IP transfer.\nFurthermore, the Closing Date specified in Section 7.1 is rescheduled to January 30, 2027. All disputes under this Amendment shall be submitted to the jurisdiction of the State of New York courts.",
+        "startOffset": 0,
+        "endOffset": 480,
+        "tokensEstimate": 80
+      }
+    ],
+    "status": "indexed"
+  }
+]

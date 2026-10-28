@@ -1,0 +1,35 @@
+{
+  "id": "priv-sess-27716ddf",
+  "title": "Sanitization Session 2:38:16 PM",
+  "profileId": "default-general",
+  "createdAt": "2026-10-28T14:38:16.189Z",
+  "originalText": "Email john@example.com for 00.",
+  "detectedEntities": [
+    {
+      "id": "ent-8c434c95",
+      "text": "john@example.com",
+      "category": "EMAIL",
+      "startOffset": 6,
+      "endOffset": 22,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false
+    }
+  ],
+  "sanitizedText": "Email [EMAIL_A] for 00.",
+  "mappingEntries": [
+    {
+      "entityId": "ent-8c434c95",
+      "sessionId": "priv-sess-27716ddf",
+      "mappingVersion": 1,
+      "category": "EMAIL",
+      "placeholder": "[EMAIL_A]",
+      "protectedOriginalValue": "john@example.com",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T14:38:16.180Z",
+      "revoked": false
+    }
+  ],
+  "residualRisk": "clean",
+  "riskDetails": []
+}

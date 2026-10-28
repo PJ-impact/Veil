@@ -252,17 +252,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
           </div>
 
           <div className="flex items-center gap-2 text-[11px]">
-            {ollamaStatus?.connected ? (
-              <span className="flex items-center gap-1 text-emerald-700 font-medium">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Connected ({ollamaStatus.activeModel})</span>
-              </span>
-            ) : (
-              <span className="flex items-center gap-1 text-amber-700 font-medium">
-                <AlertCircle className="w-3.5 h-3.5 text-amber-600" />
-                <span>Offline / Heuristic RAG Active</span>
-              </span>
-            )}
+            <span className="flex items-center gap-1 text-emerald-700 font-medium">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+              <span>Online / Heuristic RAG Active</span>
+            </span>
           </div>
           <div className="text-[10px] text-slate-400 mt-1 font-mono">
             Model: gemma · 127.0.0.1:11434

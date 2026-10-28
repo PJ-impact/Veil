@@ -44,7 +44,7 @@ export const DocumentChat: React.FC<DocumentChatProps> = ({
       conversationId: 'default-conv',
       role: 'assistant',
       content:
-        'Welcome to Private AI Workspace. I am your grounded document intelligence assistant. Ask questions about your scoped documents. Every factual claim is verified against exact passage references.',
+        'Welcome to Veil. I am your grounded document intelligence assistant. Ask questions about your scoped documents. Every factual claim is verified against exact passage references.',
       timestamp: new Date().toISOString(),
       groundingStatus: 'grounded',
       modelUsed: 'gemma',

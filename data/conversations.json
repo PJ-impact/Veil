@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "default-conv",
+    "title": "Hello...",
+    "createdAt": "2026-10-28T16:16:04.356Z",
+    "updatedAt": "2026-10-28T16:16:04.357Z",
+    "selectedDocumentIds": [
+      "doc-sample-nda-001",
+      "doc-sample-employment-002",
+      "doc-sample-amendment-003"
+    ],
+    "messages": [
+      {
+        "id": "msg-959141e1-64a8-4dda-a244-0d87e4d831c6",
+        "conversationId": "default-conv",
+        "role": "user",
+        "content": "Hello",
+        "timestamp": "2026-10-28T16:16:04.356Z"
+      },
+      {
+        "id": "msg-b6679f33-857a-4a10-812d-b5992aab696f",
+        "conversationId": "default-conv",
+        "role": "assistant",
+        "content": "The selected document(s) do not contain sufficient evidence to answer this question. The text contains no verified statements or references regarding this inquiry.",
+        "timestamp": "2026-10-28T16:16:04.357Z",
+        "citations": [],
+        "groundingStatus": "insufficient_evidence",
+        "modelUsed": "gemma (Local Grounded Synthesizer)"
+      }
+    ]
+  }
+]

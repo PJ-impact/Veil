@@ -483,7 +483,7 @@ app.get('/api/v1/health', (req, res) => {
   res.json({
     status: 'ok',
     timestamp: new Date().toISOString(),
-    service: 'Private AI Workspace Backend',
+    service: 'Veil Backend',
     documentsCount: documents.length,
     activeOllamaModel: ollamaConfig.model,
   });
@@ -2067,7 +2067,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Private AI Workspace running at http://0.0.0.0:${PORT}`);
+    console.log(`Veil running at http://0.0.0.0:${PORT}`);
   });
 }
 

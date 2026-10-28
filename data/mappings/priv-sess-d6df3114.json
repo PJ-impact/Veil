@@ -1,0 +1,183 @@
+{
+  "id": "priv-sess-d6df3114",
+  "title": "Sanitization Session 16:08:24",
+  "profileId": "redact",
+  "createdAt": "2026-10-28T16:08:24.164Z",
+  "originalText": "Ama Mensah at Northstar Finance can be contacted at ama@example.com or +1-415-555-0144 regarding confidential account #004812-US.\n\nShe confirmed that Dr. Elena Rostova (SSN: 948-22-1084) authorized the $4,500,000 USD escrow transfer to Apex Systems Corp. scheduled for December 15, 2026.",
+  "detectedEntities": [
+    {
+      "id": "ent-bbb3dc48",
+      "text": "ama@example.com",
+      "category": "EMAIL",
+      "startOffset": 52,
+      "endOffset": 67,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false
+    },
+    {
+      "id": "ent-35efab16",
+      "text": "+1-415-555-0144",
+      "category": "PHONE",
+      "startOffset": 71,
+      "endOffset": 86,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false
+    },
+    {
+      "id": "ent-aa0c14eb",
+      "text": "account #004812-US",
+      "category": "ACCOUNT_NUMBER",
+      "startOffset": 110,
+      "endOffset": 128,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false
+    },
+    {
+      "id": "ent-9bcc2406",
+      "text": "Dr. Elena Rostova",
+      "category": "PERSON",
+      "startOffset": 150,
+      "endOffset": 167,
+      "confidence": 0.92,
+      "sourceDetector": "rule",
+      "reviewed": true
+    },
+    {
+      "id": "ent-83d5b5ef",
+      "text": "948-22-1084",
+      "category": "NATIONAL_ID",
+      "startOffset": 174,
+      "endOffset": 185,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false
+    },
+    {
+      "id": "ent-c076ccd5",
+      "text": "$4,500,000 USD",
+      "category": "FINANCIAL_AMOUNT",
+      "startOffset": 202,
+      "endOffset": 216,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false
+    },
+    {
+      "id": "ent-c3d0c005",
+      "text": "Apex Systems",
+      "category": "ORGANIZATION",
+      "startOffset": 236,
+      "endOffset": 248,
+      "confidence": 0.89,
+      "sourceDetector": "rule",
+      "reviewed": true
+    },
+    {
+      "id": "ent-3be5b763",
+      "text": "December 15, 2026",
+      "category": "DATE",
+      "startOffset": 269,
+      "endOffset": 286,
+      "confidence": 0.98,
+      "sourceDetector": "rule",
+      "reviewed": false,
+      "ignored": false
+    }
+  ],
+  "sanitizedText": "Ama Mensah at Northstar Finance can be contacted at [EMAIL_A] or [PHONE_A] regarding confidential [ACCOUNT_NUMBER_A].\n\nShe confirmed that [PERSON_A] (SSN: [NATIONAL_ID_A]) authorized the [FINANCIAL_AMOUNT_A] escrow transfer to [ORGANIZATION_A] Corp. scheduled for [DATE_A].",
+  "mappingEntries": [
+    {
+      "entityId": "ent-bbb3dc48",
+      "sessionId": "priv-sess-d6df3114",
+      "mappingVersion": 1,
+      "category": "EMAIL",
+      "placeholder": "[EMAIL_A]",
+      "protectedOriginalValue": "ama@example.com",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T16:08:24.162Z",
+      "revoked": false
+    },
+    {
+      "entityId": "ent-35efab16",
+      "sessionId": "priv-sess-d6df3114",
+      "mappingVersion": 1,
+      "category": "PHONE",
+      "placeholder": "[PHONE_A]",
+      "protectedOriginalValue": "+1-415-555-0144",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T16:08:24.162Z",
+      "revoked": false
+    },
+    {
+      "entityId": "ent-aa0c14eb",
+      "sessionId": "priv-sess-d6df3114",
+      "mappingVersion": 1,
+      "category": "ACCOUNT_NUMBER",
+      "placeholder": "[ACCOUNT_NUMBER_A]",
+      "protectedOriginalValue": "account #004812-US",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T16:08:24.162Z",
+      "revoked": false
+    },
+    {
+      "entityId": "ent-9bcc2406",
+      "sessionId": "priv-sess-d6df3114",
+      "mappingVersion": 1,
+      "category": "PERSON",
+      "placeholder": "[PERSON_A]",
+      "protectedOriginalValue": "Dr. Elena Rostova",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T16:08:24.162Z",
+      "revoked": false
+    },
+    {
+      "entityId": "ent-83d5b5ef",
+      "sessionId": "priv-sess-d6df3114",
+      "mappingVersion": 1,
+      "category": "NATIONAL_ID",
+      "placeholder": "[NATIONAL_ID_A]",
+      "protectedOriginalValue": "948-22-1084",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T16:08:24.162Z",
+      "revoked": false
+    },
+    {
+      "entityId": "ent-c076ccd5",
+      "sessionId": "priv-sess-d6df3114",
+      "mappingVersion": 1,
+      "category": "FINANCIAL_AMOUNT",
+      "placeholder": "[FINANCIAL_AMOUNT_A]",
+      "protectedOriginalValue": "$4,500,000 USD",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T16:08:24.162Z",
+      "revoked": false
+    },
+    {
+      "entityId": "ent-c3d0c005",
+      "sessionId": "priv-sess-d6df3114",
+      "mappingVersion": 1,
+      "category": "ORGANIZATION",
+      "placeholder": "[ORGANIZATION_A]",
+      "protectedOriginalValue": "Apex Systems",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T16:08:24.162Z",
+      "revoked": false
+    },
+    {
+      "entityId": "ent-3be5b763",
+      "sessionId": "priv-sess-d6df3114",
+      "mappingVersion": 1,
+      "category": "DATE",
+      "placeholder": "[DATE_A]",
+      "protectedOriginalValue": "December 15, 2026",
+      "transformation": "replace",
+      "createdAt": "2026-10-28T16:08:24.162Z",
+      "revoked": false
+    }
+  ],
+  "residualRisk": "clean",
+  "riskDetails": []
+}

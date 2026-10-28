@@ -18,9 +18,7 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="flex items-center justify-between gap-8 px-6 py-3.5 bg-white border-b border-slate-200 shrink-0">
       {/* Zone 1: Single text element Brand Zone */}
       <div className="flex items-center gap-2.5 shrink-0">
-        <div className="w-8 h-8 rounded-lg bg-slate-900 text-white flex items-center justify-center font-bold text-sm tracking-wider">
-          P
-        </div>
+        <img src="/favicon.svg" alt="Veil" className="w-8 h-8 rounded-lg" />
         <a
           href="#home"
           onClick={(e) => {
@@ -29,7 +27,7 @@ export const Header: React.FC<HeaderProps> = ({
           }}
           className="text-base font-bold tracking-tight text-slate-900 whitespace-nowrap shrink-0 hover:text-slate-700 transition-colors"
         >
-          Private AI Workspace
+          Veil
         </a>
       </div>
 
